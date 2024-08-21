@@ -16,7 +16,7 @@ body{
 .card{
    display: flex;
    justify-content: center;
-   width: 35%;
+   width: 30%;
    margin: auto;
    background-color: white;
    border-radius: 10px;
@@ -38,22 +38,22 @@ body{
     text-transform: uppercase;
     font-weight: 500;
     font-size: .875rem;
-    padding: 1.3em 0;
+    padding: .5em 0;
     opacity: 70%;
 }
 
 h2{
     font-family: 'fraunces';
     font-weight: 700;
-    font-size: 2rem;
-    margin: .35rem 0;
+    font-size: 1.5rem;
+    margin: .3rem 0;
 }
 
 #text{
     font-family: 'montserrat';
     font-weight: 700;
-    font-size: .875rem;
-    padding: .6em 0;
+    font-size: .750rem;
+    padding: .3em 0;
     opacity: 70%;
     line-height: 1.5rem;
 }
@@ -62,7 +62,7 @@ h2{
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 #price{
