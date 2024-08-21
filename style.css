@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 38%, 92%) ;
+    display: flex;
+    height: 100vh;
+}
+
+.card{
+   display: flex;
+   justify-content: center;
+   width: 35%;
+   margin: auto;
+   background-color: white;
+   border-radius: 10px;
+   background-image:url('./images/image-product-desktop.jpg');
+   background-repeat: no-repeat;
+   background-size: 50%;
+}
+.hero-part1, .hero-part2{
+    flex: 1;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 2px 0;
+}
+
+#Perfume{
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    padding: 1.3em 0;
+    opacity: 70%;
+}
+
+h2{
+    font-family: 'fraunces';
+    font-weight: 700;
+    font-size: 2rem;
+    margin: .35rem 0;
+}
+
+#text{
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: .875rem;
+    padding: .6em 0;
+    opacity: 70%;
+    line-height: 1.5rem;
+}
+
+.cost{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 1em 0;
+}
+
+#price{
+    color: hsl(158, 36%, 37%);
+}
+
+small{
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: .875rem;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+.btn{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    gap: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: .875rem;  
+}
+
+.btn:hover{
+    background-color:hsl(159, 65%, 15%) ;
+}
+
+
+@media screen and (min-width: 375px) and (max-width:1440px) {
+    .card{
+        background-image: url(./images/image-product-mobile.jpg);
+        background-size: 100%;
+        width: 90%;
+        flex-direction: column;
+     }
+
+     .content{
+      margin-top: 70%;  
+     }
+}
