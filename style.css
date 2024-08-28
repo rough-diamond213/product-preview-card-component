@@ -27,6 +27,7 @@ body{
 .hero-part1, .hero-part2{
     flex: 1;
 }
+
 .content{
     width: 80%;
     margin: 0 auto;
@@ -111,6 +112,6 @@ p{
      }
 
      .content{
-      margin-top: 70%;  
+        margin-top: 70%;
      }
 }
